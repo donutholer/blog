@@ -1,0 +1,46 @@
+#pfp {
+    object-fit: cover;
+    width: 75px;
+    height: 75px;
+}
+
+h1 {
+    color: #0e1840;
+    font-family: Helvetica;
+}
+.post-header {
+    text-align: center;
+    font-family: Helvetica;
+}
+
+.main-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 20%;
+    height: auto;
+}
+
+.column {
+    float: left;
+    width: 33%;
+    padding: 5px;
+}
+/* clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.main-header {
+    color: #0e1840;
+    font-family: Helvetica;
+}
+
+footer, p {
+    font-family: Helvetica;
+}
